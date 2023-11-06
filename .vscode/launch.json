@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Bug V1",
+      "trace": true,
+      "cwd": "${workspaceFolder}/bug-v1",
+      "program": "index.js",
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Bug V2",
+      "trace": true,
+      "cwd": "${workspaceFolder}/bug-v2",
+      "program": "index.js",
+    },
+  ]
+}
